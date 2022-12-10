@@ -1,0 +1,21 @@
+.banner-bg{
+    background-image: url('../../assets/images/home_banner.jpeg');
+    background-attachment: fixed;
+    height: 90vh;
+    /* padding-top: 150px;
+    padding-bottom: 150px; */
+    background-size: cover;
+}
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: white;
+    color: #dca54c;
+}
+.button:hover {
+    background-color: #dca54c;
+    color: white;
+}
+

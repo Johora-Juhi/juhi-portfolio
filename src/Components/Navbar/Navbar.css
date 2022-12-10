@@ -1,0 +1,5 @@
+li>a:focus, li>a:hover {
+    text-decoration: none;
+    color: #dca54c;
+    background-color: transparent !important;
+}
