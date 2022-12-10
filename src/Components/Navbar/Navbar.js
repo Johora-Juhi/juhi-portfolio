@@ -7,9 +7,9 @@ const Navbar = () => {
     const menuItems=<React.Fragment>
         <li><HashLink href="">Home</HashLink></li>
         <li><HashLink href="">About</HashLink></li>
-        <li><HashLink to='#portfolio'>Portfolio</HashLink></li>
+        <li><HashLink to='#portfolio' smooth>Portfolio</HashLink></li>
         <li><HashLink href="">Blog</HashLink></li>
-        <li><HashLink to='#contact'>Contact</HashLink></li>
+        <li><HashLink to='#contact' smooth>Contact</HashLink></li>
     </React.Fragment>
     
     return (

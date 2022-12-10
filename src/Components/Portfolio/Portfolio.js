@@ -6,7 +6,7 @@ import cardImg3 from '../../assets/images/geekspoint.png'
 const Portfolio = () => {
     return (
             <div id='portfolio' className="w-full lg:w-3/4 mx-auto py-24 px-3">
-            <h1 className='text-3xl font-semibold  pl-8 lg:pl-0 mx-auto mb-16'><span className='text-white'>Portfolio</span>.</h1>            
+            <h1 className='text-3xl font-semibold  pl-8 lg:pl-0 mx-auto mb-8'><span className='text-white'>Portfolio</span>.</h1>            
                 <h2 className='text-xl text-center font-semibold  py-4 mb-8'>Projects</h2>
                 <div className="grid grid-cols-3 gap-4 justify-center">
                     <div className="card bg-base-100 shadow-xl border border-gray-800 mx-auto">
