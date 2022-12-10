@@ -13,7 +13,7 @@ const Navbar = () => {
     </React.Fragment>
     
     return (
-      <div className="navbar bg-transparent my-4 text-white border-b border-yellow-600">
+      <div className="navbar bg-base-100 my-4 text-white border-b border-yellow-600 sticky top-0 z-10">
       <div className=' w-full lg:w-3/4 mx-auto'>
       <div className="navbar-start">
         <div className="dropdown">
