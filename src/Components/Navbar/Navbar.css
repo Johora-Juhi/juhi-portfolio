@@ -1,3 +1,7 @@
+.font{
+      font-family: 'Rubik', sans-serif;
+}
+
 li>a:focus, li>a:hover {
     text-decoration: none;
     color: #dca54c;

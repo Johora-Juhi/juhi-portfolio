@@ -6,9 +6,14 @@ import cardImg3 from '../../assets/images/geekspoint.png'
 const Portfolio = () => {
     return (
             <div id='portfolio' className="w-full lg:w-3/4 mx-auto py-24 px-3">
-            <h1 className='text-3xl font-semibold  pl-8 lg:pl-0 mx-auto mb-8'><span className='text-white'>Portfolio</span>.</h1>            
+            <div className='flex items-center'>
+                    <h1 className='font-semibold text-3xl mr-4'>Portfolio</h1>
+                    <p className='text-3xl'>•</p>
+                    <h2 className='text-2xl font-bold -ml-1 text-stone-500 mb-1'> ⸻</h2>
+                    {/* style={{ width: '65px', height: '4px' }} */}
+                </div>            
                 <h2 className='text-xl text-center font-semibold  py-4 mb-8'>Projects</h2>
-                <div className="grid grid-cols-3 gap-4 justify-center">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center">
                     <div className="card bg-base-100 shadow-xl border border-gray-800 mx-auto">
                         <figure><img src={cardImg1} alt="Shoes" /></figure>
                         <div className="card-body">

@@ -6,14 +6,14 @@ const Navbar = () => {
 
     const menuItems=<React.Fragment>
         <li><HashLink href="">Home</HashLink></li>
-        <li><HashLink href="">About</HashLink></li>
+        <li><HashLink to='#about' smooth>About</HashLink></li>
         <li><HashLink to='#portfolio' smooth>Portfolio</HashLink></li>
         <li><HashLink href="">Blog</HashLink></li>
         <li><HashLink to='#contact' smooth>Contact</HashLink></li>
     </React.Fragment>
     
     return (
-      <div className="navbar bg-base-100 my-4 text-white border-b border-yellow-600 sticky top-0 z-10">
+      <div className="navbar bg-base-100 my-4 text-white border-b border-yellow-600 sticky top-0 z-10 font">
       <div className=' w-full lg:w-3/4 mx-auto'>
       <div className="navbar-start">
         <div className="dropdown">
