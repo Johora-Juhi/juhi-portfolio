@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
@@ -11,13 +12,11 @@ import Skills from '../Skills/Skills';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
-            <Skills></Skills>
+            {/* <Skills></Skills> */}
             <Portfolio></Portfolio>
             <Contact></Contact>
-            <Footer></Footer>
         </div>
     );
 };

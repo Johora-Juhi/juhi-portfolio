@@ -1,14 +1,15 @@
 import React from 'react';
 import './Navbar.css';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
     const menuItems=<React.Fragment>
-        <li><HashLink href="">Home</HashLink></li>
+        <li><Link to='/'>Home</Link></li>
         <li><HashLink to='#about' smooth>About</HashLink></li>
         <li><HashLink to='#portfolio' smooth>Portfolio</HashLink></li>
-        <li><HashLink href="">Blog</HashLink></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><HashLink to='#contact' smooth>Contact</HashLink></li>
     </React.Fragment>
     

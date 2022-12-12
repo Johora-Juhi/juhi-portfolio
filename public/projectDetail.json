@@ -1,0 +1,129 @@
+[
+    {
+        "id": "01",
+        "name": "We sell",
+        "shortDescription": "A phone reselling site",
+        "frontEnd": "React | React-Router-Dom | React-Icons | React Tailwind | DaisyUI",
+        "backEnd": "Node | Express | MongoDB | EmailJS",
+        "thirdPartyTools": "TanStack | Axiox | SweetAlert2 | EmailJS",
+        "keyFeatures": "Authentication System | Dashboard Panel | Payment Gateway(Stripe)",
+        "liveLink": "https://we-sell-b4621.web.app/",
+        "clientGithub": "https://github.com/Johora-Juhi/We-Sell-client",
+        "serverGithub": "https://github.com/Johora-Juhi/We-Sell-Server",
+        "thumbleImage": "https://i.ibb.co/NFBYM7j/wesell.png",
+        "features": [
+            {
+                "l1": "Home Page- WE Sell contains an animated banner in the first section. Then the reselling phone categories. For accessing this section users must give their credentials. It may be email, password system, or Google login system. In the third section users can see the advertisement if any seller posts any advertisement. Then in the next visitors can see the specialities of the service they provide. In the second last section users can subscribe to Guitar BD and after subscription, they will get a confirmation email. And all the contact information are there in the footer section ",
+                "l2": "Category Page - In the category page there are 3 types of phones, which are: 1. iPhone 2. Samsung 3. Realme. On this page, the user will see some detailed information like Product Model, Resale Price, Orginal Price, Used Time, Year of Purchase, Seller Name, Seller's Number, and Seller's Location. Finally, the user can book the phone or report on that product. Using Book now button user will send their information to a database which will be confirmed with a popup.",
+                "l3": "Role - There are 3 types of users. Which are: 1. Admin 2. User 3. Seller",
+                "l4": "By giving the users credential a Dashboard option is added in the navbar which is dynamic. Here, Admin can see 3 options which are 'All Seller', 'All Buyer', and 'Reported Items'. Secondly, the Buyer will see 'My Orders'. Finally, the seller will see 2 options which are 'Add a Product' & 'My Product'.",
+                "l5": "Admin Pannel - In the 'All Seller' option admin will see all of the seller. Where it will show seller's Name, Email and Roll. Here admin can verify the seller. Every verified seller will get a blue tick sign beside their name in the guitar showing page. Admin can also delete a seller using delete button which will be confirmed with a confirmation popup. The 'All Buyer' option has the same functionality excluding verification option.",
+                "l6": "Seller Pannel - A seller can not place an order, this option is only avaiable for the buyers. From the 'Add Product' option seller can add a product for sell. They have to submit a from with all necessary information such as Product Name, Product Condition (Excellent, Good, Fair), Mobile Number, Location, Phone Type (iPhone, Samsung, Realme), Orginal Price, Selling Price, Year of Purchase (2000 - 2022), Image & Description. In 'My Product' option seller will see their uploaded product with Product Name, Price, Condition & Status. There is an 'Advertise' button, by clicking this, that product will show in the home page. Seller can delete their uploaded product by clicking 'Delete'.",
+                "l7": "Buyer Pannel - Buyer can only see the orders that are placed by them",
+                "l8": "Blogs - In blog page their are 4 basic questions with answers. Here are the questions: 1. What are the different ways to manage a state in React application? 2. How does prototypical inheritance work? 3. What is unit test? Why should we write unit test? 4. React vs Angular vs Vue",
+                "l9": "Authentication System - Email, Password Login and Google Login System are implemented using Firebase."
+            }
+        ],
+        "desktopView": [
+            {
+                "id": "01",
+                "imgDesk": "https://i.ibb.co/wWCsXC7/Guitar-BDWeb-1-01.jpg"
+            },
+            {
+                "id": "02",
+                "imgDesk": "https://i.ibb.co/RCRJsgL/Guitar-BDWeb-2-01.jpg"
+            },
+            {
+                "id": "03",
+                "imgDesk": "https://i.ibb.co/cTf6rX6/Guitar-BDWeb-3-01.jpg"
+            }
+        ],
+        "mobileView": [
+            {
+                "id": "01",
+                "imgDesk": "https://i.ibb.co/vzDJ0Lr/Guitar-BDMobile-1-01.jpg"
+            },
+            {
+                "id": "02",
+                "imgDesk": "https://i.ibb.co/brB6YTd/Guitar-BDMobile-2-01.jpg"
+            },
+            {
+                "id": "03",
+                "imgDesk": "https://i.ibb.co/BZnbzg2/Guitar-BDMobile-3-01.jpg"
+            }
+        ]
+    },
+    {
+        "id": "02",
+        "name": "Cake boutique",
+        "shortDescription": "A cake service site",
+        "frontEnd": "React | React-Router-Dom | React-Icons | React Tailwind | DaisyUI | React-Photo-Viewer",
+        "backEnd": "Node | Express | MongoDB",
+        "thirdPartyTools": "SweetAlert2 | EmailJS | React to PDF",
+        "keyFeatures": "Authentication System | Dashboard Panel ",
+        "liveLink": "https://cake-boutique-accd9.firebaseapp.com/",
+        "clientGithub": "https://github.com/Johora-Juhi/cake-boutique-client",
+        "serverGithub": "https://github.com/Johora-Juhi/cake-boutique-server",
+        "thumbleImage": "https://i.ibb.co/XF5WH9Y/cakeboutique.png",
+        "features": [
+            {
+                "l1": "This is a cake service site where there are basically 6 services. Where anyone can order their favourite service that they would like.",
+                "l2": "In the home page there is a banner. Then the latest 3 services are displayed. Then there is a section containing information about the quality ingredients they use.",
+                "l3": "There is a blog page. Where blogs uploaded. There are 4 questions.",
+                "l4": "In the services page, all services will be shown. People can see details any of the services. And can see all reviews.",
+                "l5": "If any one is loged in, they can also post their review which will be visible to all. The user can also edit and delete their reviews.",
+                "l6": "In MyReviews Page they can see their all given reviews on all services."
+            }
+        ],
+        "desktopView": [
+            {
+                "id": "01",
+                "imgDesk": "https://i.ibb.co/CWcpJ68/Red-ART1-01.jpg"
+            },
+            {
+                "id": "02",
+                "imgDesk": "https://i.ibb.co/khSyNf4/Red-ART2-01.jpg"
+            },
+            {
+                "id": "03",
+                "imgDesk": "https://i.ibb.co/CKFQW81/Red-ART3-01.jpg"
+            }
+        ]
+    },
+    {
+        "id": "03",
+        "name": "Geeks Point",
+        "shortDescription": "Skill testing site",
+        "frontEnd": "React | React-Router-Dom | React-Icons | React Tailwind | DaisyUI",
+        "backEnd": "Node | Express | MongoDB | EmailJS",
+        "thirdPartyTools": "TanStack | Axiox | SweetAlert2 | EmailJS",
+        "keyFeatures": "Authentication System",
+        "liveLink": "https://monkey-learning.web.app/",
+        "clientGithub": "https://github.com/DipraDas/Monkey-Learning-Client",
+        "serverGithub": "https://github.com/DipraDas/Monkey-Learning-Server",
+        "thumbleImage": "https://i.ibb.co/mchFGdV/geekspoint.png",
+        "features": [
+            {
+                "l1": "This is a learning site where there are basically 6 courses. Where anyone can purchase there favourite courses for them.",
+                "l2": "There is a blog page. Where blogs uploaded. So they can notify any important news in our blog.",
+                "l3": "In our site there is a FAQ page. Where we will update all there questions that are come form the site visitors. So, they can easily find there questions here.",
+                "l4": "This is a secured site. User can only access the open resources. When they try to take the premium service they must need to give their credential.",
+                "l5": "Visitor can sign in there using email password varification system or google login system or the github login system. So, it keeps the user information secret and also the site."
+            }
+        ],
+        "desktopView": [
+            {
+                "id": "01",
+                "imgDesk": "https://i.ibb.co/z8XgqhY/Monkey-01.jpg"
+            },
+            {
+                "id": "02",
+                "imgDesk": "https://i.ibb.co/74yzm35/Monkey1-01.jpg"
+            },
+            {
+                "id": "03",
+                "imgDesk": "https://i.ibb.co/Lxqrwyd/Monkey3-01.jpg"
+            }
+        ]
+    }
+]

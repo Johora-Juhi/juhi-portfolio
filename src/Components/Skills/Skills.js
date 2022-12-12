@@ -10,8 +10,6 @@ const Skills = () => {
                     {/* style={{ width: '65px', height: '4px' }} */}
                 </div>
                 <div className='w-full md:w-3/5 mx-auto bg-base-200 p-8 grid grid-cols-1 lg:grid-cols-2'>
-
-
                 </div>
         </div>
     );

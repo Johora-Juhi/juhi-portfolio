@@ -1,0 +1,20 @@
+[
+    {
+        "id": "01",
+        "name": "WE Sell",
+        "shortDescription": "A phone reselling website",
+        "thumbleImage": "https://i.ibb.co/D1X5rk2/Site1.jpg"
+    },
+    {
+        "id": "02",
+        "name": "Cake boutique",
+        "shortDescription": "A cake service site",
+        "thumbleImage": "https://i.ibb.co/gy18Xm6/Site2.jpg"
+    },
+    {
+        "id": "03",
+        "name": "Geeks Point",
+        "shortDescription": "Skill testing site",
+        "thumbleImage": "https://i.ibb.co/QpsfXbF/Site3.jpg"
+    }
+]
