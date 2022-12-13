@@ -1,9 +1,9 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn, FaGooglePlusG, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaGooglePlusG, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+        <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded font">
             <div className='my-0'>
                 <p className="text-4xl"><span className='text-white'>Juhi</span><span className='text-yellow-600 text-5xl mt-1'>.</span></p>
             </div>
@@ -13,7 +13,7 @@ const Footer = () => {
                     <p className='btn btn-circle btn-outline text-xl'><FaLinkedinIn></FaLinkedinIn></p>
                     <p className='btn btn-circle btn-outline text-xl'><FaGooglePlusG></FaGooglePlusG></p>
                     <p className='btn btn-circle btn-outline text-xl'><FaWhatsapp></FaWhatsapp></p>
-                    <p className='btn btn-circle btn-outline text-xl'><FaWhatsapp></FaWhatsapp></p>
+                    <p className='btn btn-circle btn-outline text-xl'><FaInstagram></FaInstagram></p>
                 </div>
             </div>
             <div>

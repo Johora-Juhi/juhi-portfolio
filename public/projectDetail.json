@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "name": "We sell",
+        "name": "We Sell",
         "shortDescription": "A phone reselling site",
         "frontEnd": "React | React-Router-Dom | React-Icons | React Tailwind | DaisyUI",
         "backEnd": "Node | Express | MongoDB | EmailJS",
@@ -27,15 +27,23 @@
         "desktopView": [
             {
                 "id": "01",
-                "imgDesk": "https://i.ibb.co/wWCsXC7/Guitar-BDWeb-1-01.jpg"
+                "imgDesk": "https://i.ibb.co/yPytpHk/we-Sell-01.png"
             },
             {
                 "id": "02",
-                "imgDesk": "https://i.ibb.co/RCRJsgL/Guitar-BDWeb-2-01.jpg"
+                "imgDesk": "https://i.ibb.co/NYpcDck/we-Sell-02.png"
             },
             {
                 "id": "03",
-                "imgDesk": "https://i.ibb.co/cTf6rX6/Guitar-BDWeb-3-01.jpg"
+                "imgDesk": "https://i.ibb.co/Rb1FYV8/we-Sell-03.png"
+            },
+            {
+                "id": "04",
+                "imgDesk": "https://i.ibb.co/7bb3Tgd/we-Sell-04.png"
+            },
+            {
+                "id": "05",
+                "imgDesk": "https://i.ibb.co/YfkMDmZ/we-Sell-05.png"
             }
         ],
         "mobileView": [
@@ -78,15 +86,19 @@
         "desktopView": [
             {
                 "id": "01",
-                "imgDesk": "https://i.ibb.co/CWcpJ68/Red-ART1-01.jpg"
+                "imgDesk": "https://i.ibb.co/xYp22n5/cake-Boutique-01.png"
             },
             {
                 "id": "02",
-                "imgDesk": "https://i.ibb.co/khSyNf4/Red-ART2-01.jpg"
+                "imgDesk": "https://i.ibb.co/8DRNMp6/cake-Boutique-02.png"
             },
             {
                 "id": "03",
-                "imgDesk": "https://i.ibb.co/CKFQW81/Red-ART3-01.jpg"
+                "imgDesk": "https://i.ibb.co/C0rLZdZ/cake-Boutique-03.png"
+            },
+            {
+                "id": "04",
+                "imgDesk": "https://i.ibb.co/ft7PVR4/cake-Boutique-04.png"
             }
         ]
     },
@@ -98,9 +110,9 @@
         "backEnd": "Node | Express | MongoDB | EmailJS",
         "thirdPartyTools": "TanStack | Axiox | SweetAlert2 | EmailJS",
         "keyFeatures": "Authentication System",
-        "liveLink": "https://monkey-learning.web.app/",
-        "clientGithub": "https://github.com/DipraDas/Monkey-Learning-Client",
-        "serverGithub": "https://github.com/DipraDas/Monkey-Learning-Server",
+        "liveLink": "https://geeksacademy-7a1f7.firebaseapp.com/",
+        "clientGithub": "https://github.com/Johora-Juhi/geeksPoint-client",
+        "serverGithub": "https://github.com/Johora-Juhi/geekspoint-server",
         "thumbleImage": "https://i.ibb.co/mchFGdV/geekspoint.png",
         "features": [
             {
@@ -114,15 +126,19 @@
         "desktopView": [
             {
                 "id": "01",
-                "imgDesk": "https://i.ibb.co/z8XgqhY/Monkey-01.jpg"
+                "imgDesk": "https://i.ibb.co/3SdCFWt/geeks-Point-01.png"
             },
             {
                 "id": "02",
-                "imgDesk": "https://i.ibb.co/74yzm35/Monkey1-01.jpg"
+                "imgDesk": "https://i.ibb.co/hgtYFF3/geeks-Point-02.png"
             },
             {
                 "id": "03",
-                "imgDesk": "https://i.ibb.co/Lxqrwyd/Monkey3-01.jpg"
+                "imgDesk": "https://i.ibb.co/fXNNR6S/geeks-Point-03.png"
+            },
+            {
+                "id": "04",
+                "imgDesk": "https://i.ibb.co/LQ6ySHL/geeks-Point-04.png"
             }
         ]
     }

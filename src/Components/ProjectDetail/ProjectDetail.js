@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { FaSquare } from "react-icons/fa";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const ProjectDetail = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     const location = useLocation();
     const project = location.state;
     const { name, frontEnd, backEnd, thirdPartyTools, keyFeatures, liveLink, clientGithub, serverGithub, thumbleImage, features, desktopView, mobileView } = project;
@@ -10,7 +22,23 @@ const ProjectDetail = () => {
 
         <div className='w-full lg:w-3/4 mx-auto'>
             <h1 className='py-16 text-center text-7xl font-bold'>{name}</h1>
-            <img className='w-full lg:w-1/2 mx-auto' src={thumbleImage} alt="" />
+            {/* <img className='w-full lg:w-1/2 mx-auto' src={thumbleImage} alt="" /> */}
+            <Swiper className='w-2/3 lg:w-1/2'
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+        {
+            desktopView.map(img=>      <SwiperSlide key={img.id}><img src={img.imgDesk} alt="" /></SwiperSlide>
+            )
+        }
+    </Swiper>
             <div className='my-32 mx-4 lg:mx-0 p-4 lg:p-8 border rounded-tl-3xl rounded-br-3xl border-yellow-600' >
                 <p className='text-xl pt-4'> Key Feature: <span className='text-stone-500 text-base'>{keyFeatures}</span></p>
                 <p className='text-xl py-4'> Technology:</p>

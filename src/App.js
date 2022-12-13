@@ -31,7 +31,6 @@ function App() {
   return (
     <div className="App container mx-auto">
       <RouterProvider router={router} />
-      
     </div>
   );
 }
